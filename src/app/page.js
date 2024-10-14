@@ -7,7 +7,7 @@ import HivTest from './components/hivtest';
 import Map from './components/map';
 import Activities  from './components/activities';
 import About from './components/about';
-import Nbtc from './components/nbtc';
+// import Nbtc from './components/nbtc';
 import Indialogos from './components/indialogos';
 
 const page = () => {
@@ -21,7 +21,7 @@ const page = () => {
       <Map/>
       <Activities/>
       <About/>
-      <Nbtc/>
+      {/* <Nbtc/> */}
       <Indialogos/>
     </div>
   )
