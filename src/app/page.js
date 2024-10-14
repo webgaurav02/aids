@@ -16,8 +16,8 @@ const page = () => {
       <Navbar/>
       <Logos/>
       <Slider/>
-      <HivTest/>
       <Helpline/>
+      <HivTest/>
       <Map/>
       <Activities/>
       <About/>

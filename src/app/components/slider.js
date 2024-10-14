@@ -9,23 +9,36 @@ const images = [slider1, slider2, slider3];
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isSliding, setIsSliding] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+      setIsSliding(true);
+      setTimeout(() => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+        setIsSliding(false);
+      }, 500); // Match this duration to your CSS transition duration
     }, 3000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className='flex justify-center mt-6'>
-      <Image 
-        src={images[currentIndex]} 
-        alt={`Slider ${currentIndex + 1}`} 
-        className="w-full h-auto object-cover transition-opacity duration-500" 
-        key={currentIndex}
-      />
+    <div className='overflow-hidden w-full mt-10'>
+      <div
+        className={`flex transition-transform duration-500 ${isSliding ? 'transform' : ''}`}
+        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+      >
+        {images.map((image, index) => (
+          <div key={index} className="w-full flex-shrink-0">
+            <Image 
+              src={image} 
+              alt={`Slider ${index + 1}`} 
+              className="w-full h-auto object-cover" 
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -9,13 +9,13 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className={`flex justify-between items-center h-[90px] md:h-[120px] px-4 md:px-8 transition-colors duration-500 bg-red-800 text-white`}>
+    <header className={`flex fixed top-0 z-50 w-full justify-between items-center py-2 px-4 md:px-8 transition-colors duration-500 bg-[#8b0000] text-white`}>
       <div>
         <Link href="/" className="cursor-pointer">
           <Image
             src={Meghalogo}
             alt="Logo"
-            height={100}
+            height={80}
             width="auto"
             className="hidden md:block"
           />
@@ -28,26 +28,26 @@ const Navbar = () => {
           />
         </Link>
       </div> 
-      <div className="hidden md:flex text-sm pr-10 space-x-10">
-        <Link href="/about" className="cursor-pointer font-playfair text-xl hover:text-gray-300 hover:scale-105 duration-100 text-md">
+      <div className="hidden md:flex text-sm space-x-10">
+        <Link href="/about" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
           ABOUT US
         </Link>
-        <Link href="/nacp" className="cursor-pointer font-playfair text-xl hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/nacp" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
           NACP
         </Link>
-        <Link href="/divisions" className="cursor-pointer font-playfair text-xl hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/divisions" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
           DIVISIONS
         </Link>
-        <Link href="/living-with-hiv" className="cursor-pointer font-playfair text-xl hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/living-with-hiv" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
           LIVING WITH HIV/AIDS
         </Link>
-        <Link href="/macs-in-action" className="cursor-pointer font-playfair text-xl hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/macs-in-action" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
           MACS IN ACTION
         </Link>
-        <Link href="/hiv-aids-acts" className="cursor-pointer font-playfair text-xl hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/hiv-aids-acts" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
           HIV/AIDS ACTS
         </Link>
-        <Link href="/tender-and-advertisement" className="cursor-pointer font-playfair text-xl hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/tender-and-advertisement" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
           TENDER AND ADVERTISEMENT
         </Link>
       </div>
