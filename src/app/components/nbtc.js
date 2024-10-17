@@ -7,7 +7,7 @@ import appstore from '../../assets/appstore.png';
 const Helpline = () => {
   return (
     <div>
-      <div className='bg-red-800 mt-10 md:h-[30vh] flex flex-col md:flex-row justify-around px-4 md:px-60'>
+      <div className='bg-red-800  md:h-[30vh] flex flex-col md:flex-row justify-around px-4 md:px-60'>
         {/* Text Section */}
         <div className='mt-8 text-center md:text-left'>
           <h1 className='font-bold text-white text-3xl md:text-5xl'>
