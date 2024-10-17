@@ -9,6 +9,7 @@ import Activities  from './components/activities';
 import About from './components/about';
 import Nbtc from './components/nbtc';
 import Indialogos from './components/indialogos';
+import Footer from './components/footer';
 
 const page = () => {
   return (
@@ -23,6 +24,7 @@ const page = () => {
       <About/>
       <Nbtc/>
       <Indialogos/>
+      <Footer/>
     </div>
   )
 }

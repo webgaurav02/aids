@@ -7,7 +7,7 @@ import appstore from '../../assets/appstore.png';
 const Helpline = () => {
   return (
     <div>
-      <div className='bg-red-800 mt-10 md:h-[30vh] flex flex-col md:flex-row justify-around px-4 md:px-60'>
+      <div className='bg-red-800  md:h-[30vh] flex flex-col md:flex-row justify-around px-4 md:px-60'>
         {/* Text Section */}
         <div className='mt-8 text-center md:text-left'>
           <h1 className='font-bold text-white text-3xl md:text-5xl'>
@@ -34,7 +34,11 @@ const Helpline = () => {
             <h1 className='text-xl md:text-2xl font-bold'>Download</h1>
             <h1 className='text-xl md:text-2xl font-bold'>App</h1>
           </div>
-          <Scanner className='mt-2' />
+
+          
+          <Scanner className='mt-2' width={100} height={100} /> {/* Adjust size as needed */}
+        
+    
 
           <div className='flex justify-center items-center space-x-4 mt-8'>
             <Image
