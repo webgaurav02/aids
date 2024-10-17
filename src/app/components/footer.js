@@ -30,7 +30,7 @@ const Footer = () => {
 
         {/* Find Us Section with Map */}
         <div className="flex flex-col space-y-2 md:items-center md:text-center md:text-left">
-          <h1 className=" text-[25px] md:text-[40px]  font-semibold">Find Us</h1>
+          <h1 className=" text-[25px] md:text-[36px]  font-semibold">Find Us</h1>
           <div className=" mr-4  md:w-full md:h-64">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1763530.6252600695!2d89.99177369699613!3d25.570266334194745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37507e8f34bd207f%3A0xf5ef6117f496d6e!2sMeghalaya!5e1!3m2!1sen!2sin!4v1729163442987!5m2!1sen!2sin"
