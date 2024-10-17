@@ -34,7 +34,11 @@ const Helpline = () => {
             <h1 className='text-xl md:text-2xl font-bold'>Download</h1>
             <h1 className='text-xl md:text-2xl font-bold'>App</h1>
           </div>
-          <Scanner className='mt-2' />
+
+          
+          <Scanner className='mt-2' width={100} height={100} /> {/* Adjust size as needed */}
+        
+    
 
           <div className='flex justify-center items-center space-x-4 mt-8'>
             <Image

@@ -29,25 +29,25 @@ const Navbar = () => {
         </Link>
       </div> 
       <div className="hidden md:flex text-sm space-x-10">
-        <Link href="/about" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/about" className="cursor-pointer font-playfair text-[16px] hover:text-gray-300 hover:scale-105 duration-100 text-md">
           ABOUT US
         </Link>
-        <Link href="/nacp" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/nacp" className="cursor-pointer font-playfair text-[16px] hover:text-gray-300 hover:scale-105 duration-100 text-md">
           NACP
         </Link>
-        <Link href="/divisions" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/divisions" className="cursor-pointer font-playfair text-[16px] hover:text-gray-300 hover:scale-105 duration-100 text-md">
           DIVISIONS
         </Link>
-        <Link href="/living-with-hiv" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/living-with-hiv" className="cursor-pointer font-playfair text-[16px] hover:text-gray-300 hover:scale-105 duration-100 text-md">
           LIVING WITH HIV/AIDS
         </Link>
-        <Link href="/macs-in-action" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/macs-in-action" className="cursor-pointer font-playfair text-[16px] hover:text-gray-300 hover:scale-105 duration-100 text-md">
           MACS IN ACTION
         </Link>
-        <Link href="/hiv-aids-acts" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/hiv-aids-acts" className="cursor-pointer font-playfair text-[16px] hover:text-gray-300 hover:scale-105 duration-100 text-md">
           HIV/AIDS ACTS
         </Link>
-        <Link href="/tender-and-advertisement" className="cursor-pointer font-playfair text-sm hover:text-gray-300 hover:scale-105 duration-100 text-md">
+        <Link href="/tender-and-advertisement" className="cursor-pointer font-playfair text-[16px] hover:text-gray-300 hover:scale-105 duration-100 text-md">
           TENDER AND ADVERTISEMENT
         </Link>
       </div>
