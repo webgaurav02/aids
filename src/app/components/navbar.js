@@ -9,7 +9,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className={`flex fixed top-0 z-50 w-full justify-between items-center py-2 px-4 md:px-8 transition-colors duration-500 bg-[#8b0000] text-white`}>
+    <header className={`flex fixed top-0 z-50 w-full justify-between items-center py-2 px-4 md:px-8 transition-colors duration-500 bg-red-800 text-white`}>
       <div>
         <Link href="/" className="cursor-pointer">
           <Image
