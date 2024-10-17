@@ -1,5 +1,5 @@
 import React from 'react';
-// import Navbar from './components/navbar';
+import Navbar from './components/navbar';
 import Logos from './components/logos';
 import Helpline from './components/helpline';
 import Slider from './components/slider';
@@ -13,7 +13,7 @@ import Indialogos from './components/indialogos';
 const page = () => {
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Logos/>
       <Slider/>
       <Helpline/>
