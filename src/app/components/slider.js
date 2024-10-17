@@ -24,7 +24,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className='overflow-hidden w-full mt-10'>
+    <div className='overflow-hidden w-full'>
       <div
         className={`flex transition-transform duration-500 ${isSliding ? 'transform' : ''}`}
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
