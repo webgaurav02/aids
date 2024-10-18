@@ -15,6 +15,7 @@ import About from './components/about';
 import Nbtc from './components/nbtc';
 import Indialogos from './components/indialogos';
 import Footer from './components/footer';
+import IntouchImage from './components/intouch';
 
 
 
@@ -168,6 +169,7 @@ const page = () => {
         alt='Bottom Section'
         className='block md:hidden'
       />
+      <IntouchImage />
     </div>
   )
 }
