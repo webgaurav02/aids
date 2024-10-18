@@ -17,7 +17,7 @@ import Indialogos from './components/indialogos';
 import Footer from './components/footer';
 import IntouchImage from './components/intouch';
 
-import whatsapp from '../assets/icons8-whatsapp.svg'
+import whatsapp from '../assets/icons8-whatsapp-96.png'
 
 
 //Temporary images
@@ -116,15 +116,16 @@ const page = () => {
 
   return (
     <div>
-      <div className='absolute bottom-[100px] right-[100px]'>
-        {/* <Image 
-          src={whatsapp}
+      <Link href='https://wa.me/918837009679' target='_blank' rel='noreferrer noopener' className='fixed flex flex-col items-center justify-center z-50 md:bottom-[50px] bottom-[50px] md:right-[50px] right-[50px]'>
+        <Image 
+        src={whatsapp}
           alt='whatsapp icon'
-          width={48}
-          height={48}
+          width={70}
+          height={70}
           className=''
-        /> */}
-      </div>
+        />
+        <p className='font-medium'>Click to chat</p>
+      </Link>
       <Navbar />
       <div className='relative'>
         <Image
