@@ -17,7 +17,7 @@ import Indialogos from './components/indialogos';
 import Footer from './components/footer';
 import IntouchImage from './components/intouch';
 
-
+import whatsapp from '../assets/icons8-whatsapp.svg'
 
 
 //Temporary images
@@ -116,6 +116,15 @@ const page = () => {
 
   return (
     <div>
+      <div className='absolute bottom-[100px] right-[100px]'>
+        {/* <Image 
+          src={whatsapp}
+          alt='whatsapp icon'
+          width={48}
+          height={48}
+          className=''
+        /> */}
+      </div>
       <Navbar />
       <div className='relative'>
         <Image
